@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 > <button id="logo" onclick="Einstein_logo()">Einstein</button></h1>
+            <nav class="biography_list">
+                <ul>
+                    <li><button onclick="continue_reading()"> Biography </button></li>
+                    <li><button onclick="P_Pubilcation()">Publications</button></li>
+                    <li><button onclick="Hobbies()" >Hobbies</button></li>
+                    <li><button onclick="Gallery()"> Gallery</button></li>
+                    <!-- <li><a href="#blogging">Blogs</a></li> -->
+                 
+                </ul>
+            </nav>
+            <div class="hamberg-wrapper">
+                <img class="hamberg-menu" src="./gallery/hambergur-menu.png" alt="menu" onclick="manage_menu()">
+            </div>
+            
+        </div>
+        <nav class="mob-nav" id="mob-nav">
+            <ul>
+                <li><button onclick="continue_reading()"> Biography </button></li>
+                <li><button onclick="P_Pubilcation()">Publications</button></li>
+                <li><button onclick="Hobbies()" >Hobbies</button></li>
+                <li><button onclick="Gallery()"> Gallery</button></li>
+                <!-- <li><a href="#blogging">Blogs</a></li> -->
+             
+            </ul>
+        </nav>
+    </header>
+
+ <div id="home_Page">
+    <section class="image_section">
+        <img  class="background_image" src="./Essets/einstein.jpg" alt="einstein">
+        
+     </section>
+     
+      <figure class="biography">
+        <div>
+         <img src="/Essets/bigraphy_pic.jpg" alt="Albert Einstein's biography picture">
+         <p class="text-overlay">Albert Einstein</p>
+        </div>
+         <div class="biography-content">
+             <h1>About</h1>
+             <p>Albert Einstein, one of the most influential physicists of the 20th century, revolutionized science with his theory of relativity. Born in 1879 in Germany, Einstein's curiosity about the mysteries of the universe sparked at a young age. He challenged conventional physics with his groundbreaking equation, E=mc², which linked mass and energy, reshaping our understanding of the cosmos. His work laid the foundation for modern physics.</p>
+             <p>In 1921, Einstein was awarded the Nobel Prize in Physics, not for relativity, but for his work on the photoelectric effect, which demonstrated how light particles, called photons, can eject electrons from metals.</p> 
+             <p>Beyond his scientific achievements, Einstein was also a passionate advocate for peace and civil rights. He openly criticized militarism, especially during the rise of Nazi Germany, leading to his emigration to the United States in 1933. </p>
+             <div>
+             <button class="More_About_Biography" onclick="continue_reading()" >CONTINUE READING</button> 
+         </div>
+         </div>       
+     </figure> 
+ 
+     
+     <section class="About-Publishing">
+         <h1>Publications</h1>
+         <p>Albert Einstein's contributions to science are encapsulated in several landmark publications, particularly his Annus Mirabilis papers of 1905, which introduced the photoelectric effect, explained Brownian motion, and established the Special Theory of Relativity with the iconic equation 𝐸=𝑚𝑐². In 1915, he published the General Theory of Relativity, which redefined gravity as the curvature of spacetime caused by mass, leading to profound implications for astrophysics and cosmology. His work on the field equations laid the groundwork for understanding the interactions of matter and energy in the universe. Additionally, Einstein's explorations of quantum mechanics, despite his skepticism about its interpretations, significantly influenced the field and spurred ongoing discussions in theoretical physics. Collectively, these publications revolutionized our understanding of the fundamental laws governing the universe.</p>
+         <button class="learn-more" onclick="P_Pubilcation()">LEARN MORE</button> 
+     </section>
+     
+     <section class="Hobbies_Section">
+         <h1>Hobbies</h1>
+         <div class="Violin_hobby">
+            <div class="teach">
+                <img src="./Essets/TeachingPic.webp" alt="">
+            </div>
+            <p>
+                Albert Einstein had a deep passion for playing the violin, often using it as a means to relax and find inspiration during his demanding scientific pursuits. He found solace in music, particularly enjoying the works of composers like Mozart and Bach, whose intricate melodies resonated with his analytical mind.
+            </p>
+        </div>
+        
+ 
+         <div class="Violin_hobby">
+             <div class="teach"><img src="./Essets/viloin.jpg" alt="teacher"> </div>
+             <p >Albert Einstein had a deep passion for playing the violin, often using it as a means to relax and find inspiration during his demanding scientific pursuits. He found solace in music, particularly enjoying the works of composers like Mozart and Bach, whose intricate melodies resonated with his analytical mind.  </p>
+         </div>
+     </section>
+
+     <footer id="blogging">
+        <h1 class="blogg">Articles</h1>
+        <div class="social-media">
+            <div class="social-media-block">
+                <img  class="contact-logo" src="./Essets/twitter.jpg" alt="Twitter">
+                <a class="social-media-name" href="https://x.com/alberteinstein?lang=en">Twitter</a>
+            </div>
+            
+            <div class="social-media-block">
+                <img class="contact-logo" src="./Essets/wikipidea.png" alt="Wikipedia">
+                <a class="social-media-name" href="https://en.wikipedia.org/wiki/Albert_Einstein#:~:text=Albert%20Einstein%20(/%20%CB%88a%C9%AAnsta%C9%AAn%20/">Wikipedia</a>
+            </div>
+            
+            <div class="social-media-block">
+                <img  class="contact-logo" src="./Essets/linkedin.jpeg" alt="linkedin">
+                <a class="social-media-name" href="https://www.linkedin.com/pulse/einsteins-leadership-lessons-how-think-like-genius-lee-nallalingham"> Linked In </a>
+            </div>
+            <div class="social-media-block">
+                <img  class="contact-logo" src="./Essets/instagram.jpg" alt="Instagram">
+                <a class="social-media-name" href="https://www.instagram.com/alberteinstein/">Instagram </a>
+            </div>
+        </div>
+    </footer>
+   </div>
+
+
+  <section id="Papper_publications">
+            <h2 class="book_heading"> Books </h2>
+            <div class="book_Content">
+                    <div class="book_item">
+                        <h4>A New Determination of Molecular</h4>
+                        <p>Dimensions</p>
+                        <span>1906</span>
+                    </div>
+                    <div class="book_item">
+                        <h4>A New Determination of Molecular</h4>
+                        <p>Dimensions</p>
+                        <span>1906</span>
+                    </div>
+                    <div class="book_item">
+                        <h4>A New Determination of Molecular</h4>
+                        <p>Dimensions</p>
+                        <span>1906</span>
+                    </div>
+            </div>
+            <div class="book_Content">
+                <div class="book_item">
+                    <h4>A New Determination of Molecular</h4>
+                    <p>Dimensions</p>
+                    <span>1906</span>
+                </div>
+                <div class="book_item">
+                    <h4>A New Determination of Molecular</h4>
+                    <p>Dimensions</p>
+                    <span>1906</span>
+                </div>
+                <div class="book_item">
+                    <h4>A New Determination of Molecular</h4>
+                    <p>Dimensions</p>
+                    <span>1906</span>
+                </div>
+        </div>
+
+        <div class="book_Content">
+            <div class="book_item">
+                <h4>A New Determination of Molecular</h4>
+                <p>Dimensions</p>
+                <span>1906</span>
+            </div>
+            <div class="book_item">
+                <h4>A New Determination of Molecular</h4>
+                <p>Dimensions</p>
+                <span>1906</span>
+            </div>
+            <div class="book_item">
+                <h4>A New Determination of Molecular</h4>
+                <p>Dimensions</p>
+                <span>1906</span>
+            </div>
+    </div>
+
+    <div class="book_Content">
+        <div class="book_item">
+            <h4>A New Determination of Molecular</h4>
+            <p>Dimensions</p>
+            <span>1906</span>
+        </div>
+        <div class="book_item">
+            <h4>A New Determination of Molecular</h4>
+            <p>Dimensions</p>
+            <span>1906</span>
+        </div>
+        <div class="book_item">
+            <h4>A New Determination of Molecular</h4>
+            <p>Dimensions</p>
+            <span>1906</span>
+        </div>
+    </div>
+
+  <div class="book_Content">
+    <div class="book_item">
+        <h4>A New Determination of Molecular</h4>
+        <p>Dimensions</p>
+        <span>1906</span>
+    </div>
+    <div class="book_item">
+        <h4>A New Determination of Molecular</h4>
+        <p>Dimensions</p>
+        <span>1906</span>
+    </div>
+    <div class="book_item">
+        <h4>A New Determination of Molecular</h4>
+        <p>Dimensions</p>
+        <span>1906</span>
+    </div>
+ </div>
+
+
+  <div class="end_book">
+    <h4>The meaning of reality</h4>
+    <span>1940</span>
+   </div>       
+</section>
+    
+
+
+
+
+<!-- Photo Session -->
+
+<section id="photo">
+    <h2>Hostorical Photo Gallery</h2>
+
+    <div class="Photo_Session">
+        <div class="photo_item">
+         <img src="./gallery/download.jpeg" alt="photo-1">
+         <img src="./gallery/OIP (1).jpeg" alt="photo-2">
+         <img src="./gallery/OIP (2).jpeg" alt="photo-3">
+         <img src="./gallery/OIP (3).jpeg" alt="photo-4">
+    </div>
+
+    <div class="Photo_Session">
+        <div class="photo_item">
+         <img src="./gallery/OIP.jpeg" alt="photo-1">
+         <img src="./gallery/download.jpeg" alt="photo-2">
+         <img src="./gallery/OIP (11).jpeg" alt="photo-3">
+         <img src="./gallery/OIP (5).jpeg" alt="photo-4">
+    </div>
+    <div class="Photo_Session">
+        <div class="photo_item">
+         <img src="./gallery/OIP (9).jpeg" alt="photo-1">
+         <img src="./gallery/OIP (6).jpeg" alt="photo-2">
+         <img src="./gallery/OIP (7).jpeg" alt="photo-3">
+         <img src="./gallery/OIP (8).jpeg" alt="photo-4">
+    </div>
+    <div class="Photo_Session">
+        <div class="photo_item">
+         <img src="./gallery/OIP (4).jpeg" alt="photo-1">
+         <img src="./gallery/OIP (11).jpeg" alt="photo-2">
+         <img src="./gallery/OIP (2).jpeg" alt="photo-3">
+         <img src="./gallery/download.jpeg" alt="photo-4">
+    </div>
+    <div class="Photo_Session">
+        <div class="photo_item">
+         <img src="./gallery/OIP (5).jpeg" alt="photo-1">
+         <img src="./gallery/OIP (1).jpeg" alt="photo-2">
+         <img src="./gallery/download.jpeg" alt="photo-3">
+         <img src="./gallery/OIP (3).jpeg" alt="photo-4">
+    </div>
+
+</section>
+<section id="Einstein_Biography">
+    <h2 class="bio_gra">Einstein's_Biography</h2>
+      <img class="biography-pic" src="./gallery/OIP (9).jpeg" alt="photo_9">
+    <div class="einstein-info">
+    <p>Albert Einstein, one of the most influential physicists of the 20th century, revolutionized science with his theory of relativity. Born in 1879 in Germany, Einstein's curiosity about the mysteries of the universe sparked at a young age. He challenged conventional physics with his groundbreaking equation, E=mc², which linked mass and energy, reshaping our understanding of the cosmos. His work laid the foundation for modern physics.</p>
+    <p>In 1921, Einstein was awarded the Nobel Prize in Physics, not for relativity, but for his work on the photoelectric effect, which demonstrated how light particles, called photons, can eject electrons from metals.</p> 
+   <p>Beyond his scientific achievements, Einstein was also a passionate advocate for peace and civil rights. He openly criticized militarism, especially during the rise of Nazi Germany, leading to his emigration to the United States in 1933. </p>
+  </div>
+
+    <h3 class="book_heading"> Influence </h3>
+    <div class="book_Content">
+            <div class="book_item">
+                <h4>A New Determination of Molecular</h4>
+                <p>Dimensions</p>
+                <span>1906</span>
+            </div>
+            <div class="book_item">
+                <h4>A New Determination of Molecular</h4>
+                <p>Dimensions</p>
+                <span>1906</span>
+            </div>
+            <div class="book_item">
+                <h4>A New Determination of Molecular</h4>
+                <p>Dimensions</p>
+                <span>1906</span>
+            </div>
+    </div>
+    <div class="book_Content">
+        <div class="book_item">
+            <h4>A New Determination of Molecular</h4>
+            <p>Dimensions</p>
+            <span>1906</span>
+        </div>
+        <div class="book_item">
+            <h4>A New Determination of Molecular</h4>
+            <p>Dimensions</p>
+            <span>1906</span>
+        </div>
+        <div class="book_item">
+            <h4>A New Determination of Molecular</h4>
+            <p>Dimensions</p>
+            <span>1906</span>
+        </div>
+   </div>
+
+<div class="book_Content">
+    <div class="book_item">
+        <h4>A New Determination of Molecular</h4>
+        <p>Dimensions</p>
+        <span>1906</span>
+    </div>
+    <div class="book_item">
+        <h4>A New Determination of Molecular</h4>
+        <p>Dimensions</p>
+        <span>1906</span>
+    </div>
+    <div class="book_item">
+        <h4>A New Determination of Molecular</h4>
+        <p>Dimensions</p>
+        <span>1906</span>
+    </div>
+  </div>
+
+    <div class="end_book">
+    <h4>The meaning of reality</h4>
+    <span>1940</span>
+    </div>       
+ 
+</section>
+<section id="Hobbies_Section" class="Hobbies_Section">
+    <h1>Hobbies</h1>
+    <div class="Violin_hobby">
+       <div class="teach">
+           <img src="./Essets/TeachingPic.webp" alt="">
+       </div>
+       <p>
+           Albert Einstein had a deep passion for playing the violin, often using it as a means to relax and find inspiration during his demanding scientific pursuits. He found solace in music, particularly enjoying the works of composers like Mozart and Bach, whose intricate melodies resonated with his analytical mind.
+       </p>
+   </div>
+   
+
+    <div class="Violin_hobby">
+        <div class="teach"><img src="./Essets/viloin.jpg" alt="teacher"> </div>
+        <p >Albert Einstein had a deep passion for playing the violin, often using it as a means to relax and find inspiration during his demanding scientific pursuits. He found solace in music, particularly enjoying the works of composers like Mozart and Bach, whose intricate melodies resonated with his analytical mind.  </p>
+    </div>
+</section>
+
+<script src="index.js"></script>
+</body>
+</html>
